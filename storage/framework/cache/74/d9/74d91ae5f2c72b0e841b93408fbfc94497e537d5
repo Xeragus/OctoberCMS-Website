@@ -1,0 +1,31 @@
+1522584171a:1:{s:13:"jumbotron.htm";a:6:{s:8:"fileName";s:13:"jumbotron.htm";s:7:"content";s:815:"description = "The Jumbotron"
+==
+<section id="jumbotron" class="m-t-3">
+	<div class="jumbotron">
+		<div class="container text-xs-center">
+			{% placeholder jumbotron default %}
+			<h1 class="display-3">Xeragus Code</h1>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, reprehenderit iure animi possimus aspernatur eum commodi doloribus fugiat eius voluptatum illum ut deleniti id quidem vitae cum maiores libero sit.</p>
+			<hr class="m-y-2">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, perferendis excepturi quam nemo possimus nulla cumque reprehenderit quos fuga nostrum.</p>
+			<p class="lead">
+				<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+			</p>
+			{% endplaceholder %}
+		</div>
+	</div>
+</section>";s:5:"mtime";i:1522582699;s:6:"markup";s:780:"<section id="jumbotron" class="m-t-3">
+	<div class="jumbotron">
+		<div class="container text-xs-center">
+			{% placeholder jumbotron default %}
+			<h1 class="display-3">Xeragus Code</h1>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, reprehenderit iure animi possimus aspernatur eum commodi doloribus fugiat eius voluptatum illum ut deleniti id quidem vitae cum maiores libero sit.</p>
+			<hr class="m-y-2">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, perferendis excepturi quam nemo possimus nulla cumque reprehenderit quos fuga nostrum.</p>
+			<p class="lead">
+				<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+			</p>
+			{% endplaceholder %}
+		</div>
+	</div>
+</section>";s:4:"code";N;s:11:"description";s:13:"The Jumbotron";}}
