@@ -1,0 +1,45 @@
+title = "Calculator"
+url = "/calculator"
+layout = "default"
+is_hidden = 0
+==
+<?php
+function onTest() {
+    $firstNumber = post('firstNumber');
+    $secondNumber = post('secondNumber');
+    $operation = post('operation');
+
+    switch ($operation) {
+      case '+':
+        $this['answer'] = $firstNumber + $secondNumber;
+        break;
+      case '-':
+        $this['answer'] = $firstNumber - $secondNumber;
+        break;
+      case '*':
+        $this['answer'] = $firstNumber * $secondNumber;
+        break;
+      default:
+        $this['answer'] = $firstNumber / $secondNumber;
+        break;
+    }
+  }
+?>
+==
+<h3>AJAX Calculator</h3>
+
+<form class="form-inline" data-request="onTest" data-request-update="calcresult: '#result'" action="">
+    <input type="text" name="firstNumber" value="" class="form-control" style="width: 70px">
+   	<select name="operation" class="form-control" style="width: 70px">
+   		<option>+</option>
+   		<option>-</option>
+   		<option>*</option>
+   		<option>/</option>
+   	</select>
+   	<input type="text" name="secondNumber" value="" class="form-control" style="width: 70px">
+   	<button type="submit" class="btn btn-primary">Calculate</button>
+</form>
+
+<div id="result">
+    {% partial 'calcresult' %}
+</div>
